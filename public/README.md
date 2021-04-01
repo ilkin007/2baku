@@ -45,14 +45,19 @@ The main core of the project is inside the /public/parser/Selenium/
 ## How to:
 
 ### Start the project
-cd public
-make start
+`cd public`
+\
+`make start`
 
 ### To see the database, phpmyadmin
-http://localhost:8080/index.php
+`http://localhost:8080/index.php`
+\
 server: (leave empty)
+\
 user: `db_user`
+\
 pass: `db_user_pass`
+\
 database: `app_db`
 
 ### Project config
