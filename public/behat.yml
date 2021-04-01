@@ -1,0 +1,4 @@
+default:
+  paths:
+    features: /var/www/html/Behat/features
+    bootstrap: /var/www/html/Behat/features/bootstrap

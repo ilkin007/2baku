@@ -1,0 +1,63 @@
+* * * * * crontab /home/ubuntu/fromgermanytobaku/public/sudocrontab
+
+#The script to run docker every minute, it's commented out because we have an issue when docker eats all the HDD running the command every minute
+#* * * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml up -d >/dev/null 2>&1
+
+#This script just runs the parsing (adding) new product or category of products
+* * * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1
+#* * * * * ( sleep 3 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 5 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 7 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 9 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 11 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 13 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+* * * * * ( sleep 15 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 17 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 19 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 21 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 23 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 25 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 27 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+* * * * * ( sleep 29 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 31 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 33 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 35 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 37 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 39 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 41 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 43 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 45 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+* * * * * ( sleep 47 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 49 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 51 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 53 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 55 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 57 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+#* * * * * ( sleep 59 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/taskrunner.php" >/dev/null 2>&1 )
+
+#This script just adds new products from staging database to the shopify
+* * * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/synchronize_create.php" >/dev/null 2>&1
+
+#This script just updates existing products from staging database to shopify
+* * * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/synchronize_update.php" >/dev/null 2>&1
+
+#In this script we get random already loaded to Shopify, product, from the staging database.
+#Then we try to reparse it from Zalando, if it is still there, we update the data in staging database ONLY (!!!)
+#In case it's already not exist in Zalando, we just set it as out of stock on Shopify side.
+* * * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/updateProduct.php" >/dev/null 2>&1
+* * * * * ( sleep 20 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/updateProduct.php" >/dev/null 2>&1 )
+* * * * * ( sleep 40 ; docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/updateProduct.php" >/dev/null 2>&1 )
+
+#This script updates the collections, getting data from our categories table in staging
+0 * * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/collections_sync.php" >/dev/null 2>&1
+
+#This script sets all the products as not updated every midnight
+#To be sure that the products will be updated later on during the day
+0 0 * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/setNotUpdated.php" >/dev/null 2>&1
+
+#This script sets all the category queue tasks back to the status new every midnight
+#If the amount of products is less than the minimum, set in the configuration when adding this task
+#We have a mechanism to detect duplicate products (by unique links to the product on zalando), so we will definitely avoid them
+0 0 * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/setCategoryToGetNewProducts.php" >/dev/null 2>&1
+
+0 * * * * docker-compose -f /home/ubuntu/fromgermanytobaku/public/docker-compose.yml exec php php "/var/www/html/parser/Selenium/zalando_run/refreshCookies.php" >/dev/null 2>&1

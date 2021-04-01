@@ -1,0 +1,10 @@
+../idea/
+.DS_Store
+/parser/storage
+/images
+/parser/Selenium/App/Lounge/log
+/parser/Selenium/App/Zalando/log
+/parser/Selenium/App/zalando/log
+/.htaccess
+/.htpasswd
+/vendor
